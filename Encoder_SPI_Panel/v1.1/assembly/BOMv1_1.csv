@@ -1,0 +1,16 @@
+Item,Ref Des,Qty,Manufacturer,Mfg Part #,Description / Value,Package,Type,Your Instructions / Notes
+1,B6-U1,1,AMS,AS5048A-HTSP,AS5048A,TSSOP-14_4.4x5mm_P0.65mm,SMD,
+2,"B5-R1,B5-R2",2,Generic,Generic,18k,R_0402_1005Metric,SMD,"Generic Resistor, 0402"
+3,"B5-R3,B5-R4",2,Generic,Generic,2k2,R_0402_1005Metric,SMD,"Generic Resistor, 0402"
+4,B5-J1,1,JST,SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,Conn_01x04,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,SMD,
+5,B5-U1,1,AMS,AS5048B-HTSP,AS5048B,TSSOP-14_4.4x5mm_P0.65mm,SMD,
+6,"B4-C2,B3-C2",2,Murata,GRM155C80J105KA12D,1uF 6.3V,C_0402_1005Metric,SMD,or similar 6.3V 1uF capacitor; Unpolarized capacitor;
+7,"B4-D1,B3-D1,B2-D1,B1-D1,B6-D1,B5-D1",6,Wurth,150040VS73240,green,LED_0402_1005Metric,SMD,
+8,"B4-R1,B3-R1,B2-R1,B1-R1,B6-R5,B5-R5",6,Generic,Generic,1k,R_0402_1005Metric,SMD,"Generic Resistor, 0402"
+9,"B4-U1,B3-U1",2,Monolithic Power Systems (MPS),MA730GQ,MA730,QFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm,SMD,
+10,"B4-J1,B3-J1",2,JST,SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal,Conn_01x08_MountingPin,JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal,SMD,
+11,"B2-J1,B1-J1,B6-J1",3,JST,SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal,Conn_01x06_MountingPin,JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal,SMD,
+12,"B2-C2,B1-C1,B6-C2,B5-C2",4,AVX,04026D104KAT2A,100nF 6.3V,C_0402_1005Metric,SMD,or similar 6.3V 100nF capacitor; Unpolarized capacitor;
+13,B2-U1,1,Infineon,TLE5012BE1000XUMA1,TLE5012B,Infineon_PG-DSO-8,SMD,
+14,"B1-C2,B6-C1,B5-C1",3,Murata,GRM155R60J106ME15D,10uF 6.3V,C_0402_1005Metric,SMD,or other 6.3V 10uF capacitor; Unpolarized capacitor;
+15,B1-U1,1,Broadcom,AEAT-8800-Q24TR,AEAT_8800_Q24,QFN-24-1EP_5x5mm_P0.65mm_EP3.2x3.2mm,SMD,

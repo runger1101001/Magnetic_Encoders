@@ -1,0 +1,330 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:VCC #PWR03
+U 1 1 606A6825
+P 1400 2400
+F 0 "#PWR03" H 1400 2250 50  0001 C CNN
+F 1 "VCC" V 1415 2527 50  0000 L CNN
+F 2 "" H 1400 2400 50  0001 C CNN
+F 3 "" H 1400 2400 50  0001 C CNN
+	1    1400 2400
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR06
+U 1 1 606A7DCF
+P 3200 1300
+F 0 "#PWR06" H 3200 1150 50  0001 C CNN
+F 1 "VCC" V 3215 1427 50  0000 L CNN
+F 2 "" H 3200 1300 50  0001 C CNN
+F 3 "" H 3200 1300 50  0001 C CNN
+	1    3200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 606A8E49
+P 3200 2550
+F 0 "#PWR04" H 3200 2300 50  0001 C CNN
+F 1 "GND" H 3205 2377 50  0000 C CNN
+F 2 "" H 3200 2550 50  0001 C CNN
+F 3 "" H 3200 2550 50  0001 C CNN
+	1    3200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x08_MountingPin J1
+U 1 1 606AA1C6
+P 1200 2600
+F 0 "J1" H 1200 3100 50  0000 C CNN
+F 1 "Conn_01x06_MountingPin" H 1288 2423 50  0001 L CNN
+F 2 "Connector_JST:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal" H 1200 2600 50  0001 C CNN
+F 3 "~" H 1200 2600 50  0001 C CNN
+F 4 "SPI" H 1200 3000 50  0000 C CNN "Port"
+F 5 "JST" H 1200 2600 50  0001 C CNN "Manu"
+F 6 "SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal" H 1200 2600 50  0001 C CNN "Part"
+	1    1200 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 606AB029
+P 1200 3200
+F 0 "#PWR01" H 1200 2950 50  0001 C CNN
+F 1 "GND" H 1205 3027 50  0000 C CNN
+F 2 "" H 1200 3200 50  0001 C CNN
+F 3 "" H 1200 3200 50  0001 C CNN
+	1    1200 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 606AB5D6
+P 1400 2300
+F 0 "#PWR02" H 1400 2050 50  0001 C CNN
+F 1 "GND" V 1405 2172 50  0000 R CNN
+F 2 "" H 1400 2300 50  0001 C CNN
+F 3 "" H 1400 2300 50  0001 C CNN
+	1    1400 2300
+	0    -1   1    0   
+$EndComp
+Text GLabel 1400 2800 2    50   Input ~ 0
+nCS
+Text GLabel 1400 2500 2    50   Input ~ 0
+MOSI
+Text GLabel 1400 2600 2    50   Input ~ 0
+MISO
+Text GLabel 1400 2700 2    50   Input ~ 0
+SCK
+Text GLabel 2700 1800 0    50   Input ~ 0
+nCS
+Text GLabel 2700 1500 0    50   Input ~ 0
+MOSI
+Text GLabel 2700 1600 0    50   Input ~ 0
+MISO
+Text GLabel 2700 1700 0    50   Input ~ 0
+SCK
+Text GLabel 3700 2000 2    50   Input ~ 0
+ABI_B
+Text GLabel 3700 2100 2    50   Input ~ 0
+ABI_I
+Text GLabel 3700 1900 2    50   Input ~ 0
+ABI_A
+Text GLabel 3700 1500 2    50   Input ~ 0
+PWM
+$Comp
+L power:VCC #PWR07
+U 1 1 606B3846
+P 4500 3650
+F 0 "#PWR07" H 4500 3500 50  0001 C CNN
+F 1 "VCC" H 4515 3823 50  0000 C CNN
+F 2 "" H 4500 3650 50  0001 C CNN
+F 3 "" H 4500 3650 50  0001 C CNN
+	1    4500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 606B385D
+P 4500 4300
+F 0 "#PWR08" H 4500 4050 50  0001 C CNN
+F 1 "GND" H 4505 4127 50  0000 C CNN
+F 2 "" H 4500 4300 50  0001 C CNN
+F 3 "" H 4500 4300 50  0001 C CNN
+	1    4500 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 606B9545
+P 4500 4200
+F 0 "H2" H 4600 4249 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4600 4158 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 4500 4200 50  0001 C CNN
+F 3 "~" H 4500 4200 50  0001 C CNN
+	1    4500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 606BAFAA
+P 4500 3750
+F 0 "H1" H 4600 3799 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4600 3708 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 4500 3750 50  0001 C CNN
+F 3 "~" H 4500 3750 50  0001 C CNN
+	1    4500 3750
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 606C87F2
+P 1200 3900
+F 0 "J2" H 1118 4217 50  0000 C CNN
+F 1 "Castellations_ABI" H 1288 3723 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1200 3900 50  0001 C CNN
+F 3 "~" H 1200 3900 50  0001 C CNN
+F 4 "ABI Pads" H 1118 4126 50  0000 C CNN "Port"
+F 5 "" H 1200 3900 50  0001 C CNN "Manu"
+F 6 "" H 1200 3900 50  0001 C CNN "Part"
+	1    1200 3900
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1400 3900 2    50   Input ~ 0
+ABI_B
+Text GLabel 1400 4000 2    50   Input ~ 0
+ABI_I
+Text GLabel 1400 3800 2    50   Input ~ 0
+ABI_A
+Text GLabel 1400 4100 2    50   Input ~ 0
+PWM
+$Comp
+L power:VCC #PWR0101
+U 1 1 606CADEA
+P 4500 2700
+F 0 "#PWR0101" H 4500 2550 50  0001 C CNN
+F 1 "VCC" H 4515 2873 50  0000 C CNN
+F 2 "" H 4500 2700 50  0001 C CNN
+F 3 "" H 4500 2700 50  0001 C CNN
+	1    4500 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 606CB8DC
+P 4500 2700
+F 0 "#FLG0101" H 4500 2775 50  0001 C CNN
+F 1 "PWR_FLAG" H 4500 2873 50  0000 C CNN
+F 2 "" H 4500 2700 50  0001 C CNN
+F 3 "~" H 4500 2700 50  0001 C CNN
+	1    4500 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 606CD915
+P 4550 1650
+F 0 "C2" H 4458 1604 50  0000 R CNN
+F 1 "1uF 6.3V" H 4458 1695 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4550 1650 50  0001 C CNN
+F 3 "~" H 4550 1650 50  0001 C CNN
+F 4 "Generic" V 4550 1650 50  0001 C CNN "Part"
+F 5 "Generic" V 4550 1650 50  0001 C CNN "Manu"
+	1    4550 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR09
+U 1 1 606CFADF
+P 4850 1350
+F 0 "#PWR09" H 4850 1200 50  0001 C CNN
+F 1 "VCC" H 4865 1523 50  0000 C CNN
+F 2 "" H 4850 1350 50  0001 C CNN
+F 3 "" H 4850 1350 50  0001 C CNN
+	1    4850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 606D0144
+P 4850 2000
+F 0 "#PWR010" H 4850 1750 50  0001 C CNN
+F 1 "GND" H 4855 1827 50  0000 C CNN
+F 2 "" H 4850 2000 50  0001 C CNN
+F 3 "" H 4850 2000 50  0001 C CNN
+	1    4850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Magnetic:MA730 U1
+U 1 1 606D7B3D
+P 3200 1800
+F 0 "U1" H 2850 2250 50  0000 C CNN
+F 1 "MA730" H 3500 2250 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm" H 3200 850 50  0001 C CNN
+F 3 "https://www.monolithicpower.com/pub/media/document/m/a/ma730_r1.01.pdf" H 1050 3400 50  0001 C CNN
+	1    3200 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 2700 2000 0    50   Input ~ 0
+SSD
+Text GLabel 2700 2100 0    50   Input ~ 0
+SSCK
+Wire Wire Line
+	3100 2300 3100 2450
+Wire Wire Line
+	3100 2450 3200 2450
+Wire Wire Line
+	3200 2300 3200 2450
+Connection ~ 3200 2450
+Wire Wire Line
+	3300 2300 3300 2450
+Wire Wire Line
+	3300 2450 3200 2450
+Wire Wire Line
+	3200 2450 3200 2550
+$Comp
+L Device:R_Small R1
+U 1 1 606DE776
+P 5150 1750
+F 0 "R1" H 5209 1796 50  0000 L CNN
+F 1 "1k" H 5209 1705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5150 1750 50  0001 C CNN
+F 3 "~" H 5150 1750 50  0001 C CNN
+	1    5150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D1
+U 1 1 606DEF18
+P 5150 1550
+F 0 "D1" V 5196 1480 50  0000 R CNN
+F 1 "green" V 5105 1480 50  0000 R CNN
+F 2 "LED_SMD:LED_0402_1005Metric" V 5150 1550 50  0001 C CNN
+F 3 "~" V 5150 1550 50  0001 C CNN
+F 4 "Wurth" V 5150 1550 50  0001 C CNN "Manu"
+F 5 "150040VS73240" V 5150 1550 50  0001 C CNN "Part"
+	1    5150 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 1550 4550 1350
+Wire Wire Line
+	4550 1350 4850 1350
+Wire Wire Line
+	4850 1350 5150 1350
+Wire Wire Line
+	5150 1350 5150 1450
+Connection ~ 4850 1350
+Wire Wire Line
+	4550 1750 4550 2000
+Wire Wire Line
+	4550 2000 4850 2000
+Wire Wire Line
+	5150 2000 5150 1850
+Connection ~ 4850 2000
+Wire Wire Line
+	4850 2000 5150 2000
+Text GLabel 1400 2900 2    50   Input ~ 0
+SSD
+Text GLabel 1400 3000 2    50   Input ~ 0
+SSCK
+NoConn ~ 3700 1600
+NoConn ~ 3700 1700
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 606E350F
+P 4900 2700
+F 0 "#FLG0102" H 4900 2775 50  0001 C CNN
+F 1 "PWR_FLAG" H 4900 2873 50  0000 C CNN
+F 2 "" H 4900 2700 50  0001 C CNN
+F 3 "~" H 4900 2700 50  0001 C CNN
+	1    4900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 606E40D3
+P 4900 2700
+F 0 "#PWR0102" H 4900 2450 50  0001 C CNN
+F 1 "GND" H 4905 2527 50  0000 C CNN
+F 2 "" H 4900 2700 50  0001 C CNN
+F 3 "" H 4900 2700 50  0001 C CNN
+	1    4900 2700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

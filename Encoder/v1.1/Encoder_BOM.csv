@@ -1,0 +1,8 @@
+Item #,Ref Des,Qty,Manufacturer,Mfg Part #, Description / Value,Package,Type,Your Instructions / Notes
+1,C1,1,Generic,Generic,10µF 6.3V Ceramic,0402,SMD,Generic
+2,C2,1,Generic,Generic,100nF 6.3V Ceramic,0402,SMD,Generic
+3,D1,1,Generic,e.g.: SML-P13PT,LED Green (λ 560nm)  Vf 2.1V @20mA,0402,SMD,"Generic, e.g. https://eu.mouser.com/datasheet/2/348/sml-p1-e-1874493.pdf"
+4,J1,1,JST,SM04B-SRSS-TB,Conn_01x04,SM04B-SRSS-TB,SMD,http://www.jst-mfg.com/product/pdf/eng/eSH.pdf?5f7229e446c85
+5,"R1,R2",2,Generic,Generic,18kΩ 1/16W 2%,0402,SMD,Generic
+6,"R3,R4,R5",3,Generic,Generic,2.2kΩ 1/16W 2%,0402,SMD,Generic
+7,U1,1,AMS,AS5048B,AS5048B,TSSOP-14,SMD,https://ams.com/documents/20143/36005/AS5048_DS000298_4-00.pdf

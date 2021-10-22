@@ -1,0 +1,879 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx_IEEE:74125 U1
+U 1 1 606FE7AD
+P 3950 1250
+F 0 "U1" V 4200 1350 50  0000 L CNN
+F 1 "74125" V 3995 1578 50  0001 L CNN
+F 2 "Package_DFN_QFN:Texas_S-PVQFN-N14" H 3950 1250 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617852170394&ref_url=https%253A%252F%252Feu.mouser.com%252F" H 3950 1250 50  0001 C CNN
+F 4 "SN74LV125ARGYRG4" V 3950 1250 50  0001 C CNN "Part"
+F 5 "TI" V 3950 1250 50  0001 C CNN "Manu"
+	1    3950 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U1
+U 2 1 606FF0BD
+P 3950 1750
+F 0 "U1" V 4200 2000 50  0000 R CNN
+F 1 "74125" V 3905 1447 50  0001 R CNN
+F 2 "Package_DFN_QFN:Texas_S-PVQFN-N14" H 3950 1750 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617852170394&ref_url=https%253A%252F%252Feu.mouser.com%252F" H 3950 1750 50  0001 C CNN
+	2    3950 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U1
+U 3 1 607007BA
+P 3950 2250
+F 0 "U1" V 4200 2500 50  0000 R CNN
+F 1 "74125" V 3905 1947 50  0001 R CNN
+F 2 "Package_DFN_QFN:Texas_S-PVQFN-N14" H 3950 2250 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617852170394&ref_url=https%253A%252F%252Feu.mouser.com%252F" H 3950 2250 50  0001 C CNN
+	3    3950 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U1
+U 4 1 60701A50
+P 3950 2750
+F 0 "U1" V 4200 3000 50  0000 R CNN
+F 1 "74125" V 3905 2447 50  0001 R CNN
+F 2 "Package_DFN_QFN:Texas_S-PVQFN-N14" H 3950 2750 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617852170394&ref_url=https%253A%252F%252Feu.mouser.com%252F" H 3950 2750 50  0001 C CNN
+	4    3950 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x06_MountingPin J1
+U 1 1 6071E83D
+P 5700 1250
+F 0 "J1" H 5788 1164 50  0000 L CNN
+F 1 "Conn_01x06_MountingPin" H 5788 1073 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical" H 5700 1250 50  0001 C CNN
+F 3 "~" H 5700 1250 50  0001 C CNN
+F 4 "JST_SH_BM06B-SRSS-TB" H 5700 1250 50  0001 C CNN "Part"
+F 5 "JST" H 5700 1250 50  0001 C CNN "Manu"
+	1    5700 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 607217CC
+P 3950 3000
+F 0 "#PWR0101" H 3950 2750 50  0001 C CNN
+F 1 "GND" H 3955 2827 50  0000 C CNN
+F 2 "" H 3950 3000 50  0001 C CNN
+F 3 "" H 3950 3000 50  0001 C CNN
+	1    3950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 60721D42
+P 5500 1050
+F 0 "#PWR0102" H 5500 800 50  0001 C CNN
+F 1 "GND" V 5505 922 50  0000 R CNN
+F 2 "" H 5500 1050 50  0001 C CNN
+F 3 "" H 5500 1050 50  0001 C CNN
+	1    5500 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 6072286B
+P 5500 1150
+F 0 "#PWR0103" H 5500 1000 50  0001 C CNN
+F 1 "VCC" V 5515 1277 50  0000 L CNN
+F 2 "" H 5500 1150 50  0001 C CNN
+F 3 "" H 5500 1150 50  0001 C CNN
+	1    5500 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 1250 5500 1250
+Wire Wire Line
+	4450 1350 5500 1350
+Wire Wire Line
+	4450 1650 4450 1350
+$Comp
+L power:GND #PWR0104
+U 1 1 607272C7
+P 5700 1750
+F 0 "#PWR0104" H 5700 1500 50  0001 C CNN
+F 1 "GND" H 5705 1577 50  0000 C CNN
+F 2 "" H 5700 1750 50  0001 C CNN
+F 3 "" H 5700 1750 50  0001 C CNN
+	1    5700 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 3450 1750 0    50   Output ~ 0
+MISO
+Text GLabel 3450 1350 0    50   Input ~ 0
+MOSI
+Text GLabel 3450 2350 0    50   Input ~ 0
+SCL
+Text GLabel 2950 2850 0    50   Input ~ 0
+SSI_SPI_SEL
+Text GLabel 3450 2650 0    50   Input ~ 0
+nCS1
+Text GLabel 3450 2150 0    50   Input ~ 0
+nCS1
+Text GLabel 3450 1150 0    50   Input ~ 0
+nCS1
+Text GLabel 4450 1850 2    50   Input ~ 0
+nCS1
+Wire Wire Line
+	4900 2250 4900 1450
+Wire Wire Line
+	4450 2250 4900 2250
+Wire Wire Line
+	4900 1450 5500 1450
+Wire Wire Line
+	5100 2750 5100 1550
+Wire Wire Line
+	5100 1550 5500 1550
+Wire Wire Line
+	4450 2750 5100 2750
+$Comp
+L power:VCC #PWR0105
+U 1 1 6072A2CE
+P 3950 1000
+F 0 "#PWR0105" H 3950 850 50  0001 C CNN
+F 1 "VCC" H 3965 1173 50  0000 C CNN
+F 2 "" H 3950 1000 50  0001 C CNN
+F 3 "" H 3950 1000 50  0001 C CNN
+	1    3950 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 6072AE7B
+P 6550 7200
+F 0 "#PWR0106" H 6550 7050 50  0001 C CNN
+F 1 "VCC" H 6565 7373 50  0000 C CNN
+F 2 "" H 6550 7200 50  0001 C CNN
+F 3 "" H 6550 7200 50  0001 C CNN
+	1    6550 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 6072B329
+P 6550 7200
+F 0 "#FLG0101" H 6550 7275 50  0001 C CNN
+F 1 "PWR_FLAG" H 6550 7373 50  0000 C CNN
+F 2 "" H 6550 7200 50  0001 C CNN
+F 3 "~" H 6550 7200 50  0001 C CNN
+	1    6550 7200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x10_MountingPin J2
+U 1 1 6072BF14
+P 1050 3100
+F 0 "J2" H 972 3717 50  0000 C CNN
+F 1 "Conn_01x10_MountingPin" H 972 3626 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal" H 1050 3100 50  0001 C CNN
+F 3 "~" H 1050 3100 50  0001 C CNN
+F 4 "JST" H 1050 3100 50  0001 C CNN "Manu"
+F 5 "JST_SH_SM10B-SRSS-TB" H 1050 3100 50  0001 C CNN "Part"
+F 6 "MCU" H 972 3626 50  0000 C CNN "Port"
+	1    1050 3100
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1250 2900 2    50   Output ~ 0
+MOSI
+$Comp
+L power:GND #PWR02
+U 1 1 6072F99C
+P 1250 2700
+F 0 "#PWR02" H 1250 2450 50  0001 C CNN
+F 1 "GND" V 1255 2572 50  0000 R CNN
+F 2 "" H 1250 2700 50  0001 C CNN
+F 3 "" H 1250 2700 50  0001 C CNN
+	1    1250 2700
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:VCC #PWR03
+U 1 1 6072F9A6
+P 1250 2800
+F 0 "#PWR03" H 1250 2650 50  0001 C CNN
+F 1 "VCC" V 1265 2927 50  0000 L CNN
+F 2 "" H 1250 2800 50  0001 C CNN
+F 3 "" H 1250 2800 50  0001 C CNN
+	1    1250 2800
+	0    1    -1   0   
+$EndComp
+Text GLabel 1250 3000 2    50   Input ~ 0
+MISO
+Text GLabel 1250 3100 2    50   Output ~ 0
+SCL
+Text GLabel 1250 3200 2    50   Output ~ 0
+nCS1
+$Comp
+L power:GND #PWR01
+U 1 1 60731C5F
+P 1050 3800
+F 0 "#PWR01" H 1050 3550 50  0001 C CNN
+F 1 "GND" H 1055 3627 50  0000 C CNN
+F 2 "" H 1050 3800 50  0001 C CNN
+F 3 "" H 1050 3800 50  0001 C CNN
+	1    1050 3800
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1250 3600 2    50   Output ~ 0
+SSI_SPI_SEL
+Text GLabel 1250 3300 2    50   Output ~ 0
+nCS2
+Text GLabel 1250 3400 2    50   Output ~ 0
+nCS3
+Text GLabel 1250 3500 2    50   Output ~ 0
+nCS4
+$Comp
+L Device:C_Small C1
+U 1 1 60732B33
+P 4500 3200
+F 0 "C1" H 4592 3246 50  0000 L CNN
+F 1 "100nF 6.3V" H 4592 3155 50  0000 L CNN
+F 2 "" H 4500 3200 50  0001 C CNN
+F 3 "~" H 4500 3200 50  0001 C CNN
+F 4 "Generic" H 4500 3200 50  0001 C CNN "Manu"
+F 5 "Generic" H 4500 3200 50  0001 C CNN "Part"
+	1    4500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR08
+U 1 1 60733787
+P 4500 3100
+F 0 "#PWR08" H 4500 2950 50  0001 C CNN
+F 1 "VCC" H 4515 3273 50  0000 C CNN
+F 2 "" H 4500 3100 50  0001 C CNN
+F 3 "" H 4500 3100 50  0001 C CNN
+	1    4500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 60733AF8
+P 4500 3300
+F 0 "#PWR09" H 4500 3050 50  0001 C CNN
+F 1 "GND" H 4505 3127 50  0000 C CNN
+F 2 "" H 4500 3300 50  0001 C CNN
+F 3 "" H 4500 3300 50  0001 C CNN
+	1    4500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U3
+U 1 1 60735428
+P 7750 1250
+F 0 "U3" V 8000 1350 50  0000 L CNN
+F 1 "74125" V 7795 1578 50  0001 L CNN
+F 2 "Package_DFN_QFN:Texas_S-PVQFN-N14" H 7750 1250 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617852170394&ref_url=https%253A%252F%252Feu.mouser.com%252F" H 7750 1250 50  0001 C CNN
+F 4 "SN74LV125ARGYRG4" V 7750 1250 50  0001 C CNN "Part"
+F 5 "TI" V 7750 1250 50  0001 C CNN "Manu"
+	1    7750 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U3
+U 2 1 60735432
+P 7750 1750
+F 0 "U3" V 8000 2000 50  0000 R CNN
+F 1 "74125" V 7705 1447 50  0001 R CNN
+F 2 "Package_DFN_QFN:Texas_S-PVQFN-N14" H 7750 1750 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617852170394&ref_url=https%253A%252F%252Feu.mouser.com%252F" H 7750 1750 50  0001 C CNN
+	2    7750 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U3
+U 3 1 6073543C
+P 7750 2250
+F 0 "U3" V 8000 2500 50  0000 R CNN
+F 1 "74125" V 7705 1947 50  0001 R CNN
+F 2 "Package_DFN_QFN:Texas_S-PVQFN-N14" H 7750 2250 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617852170394&ref_url=https%253A%252F%252Feu.mouser.com%252F" H 7750 2250 50  0001 C CNN
+	3    7750 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U3
+U 4 1 60735446
+P 7750 2750
+F 0 "U3" V 8000 3000 50  0000 R CNN
+F 1 "74125" V 7705 2447 50  0001 R CNN
+F 2 "Package_DFN_QFN:Texas_S-PVQFN-N14" H 7750 2750 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617852170394&ref_url=https%253A%252F%252Feu.mouser.com%252F" H 7750 2750 50  0001 C CNN
+	4    7750 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x06_MountingPin J4
+U 1 1 60735452
+P 9500 1250
+F 0 "J4" H 9588 1164 50  0000 L CNN
+F 1 "Conn_01x06_MountingPin" H 9588 1073 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical" H 9500 1250 50  0001 C CNN
+F 3 "~" H 9500 1250 50  0001 C CNN
+F 4 "JST_SH_BM06B-SRSS-TB" H 9500 1250 50  0001 C CNN "Part"
+F 5 "JST" H 9500 1250 50  0001 C CNN "Manu"
+	1    9500 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 6073545C
+P 7750 3000
+F 0 "#PWR016" H 7750 2750 50  0001 C CNN
+F 1 "GND" H 7755 2827 50  0000 C CNN
+F 2 "" H 7750 3000 50  0001 C CNN
+F 3 "" H 7750 3000 50  0001 C CNN
+	1    7750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 60735466
+P 9300 1050
+F 0 "#PWR023" H 9300 800 50  0001 C CNN
+F 1 "GND" V 9305 922 50  0000 R CNN
+F 2 "" H 9300 1050 50  0001 C CNN
+F 3 "" H 9300 1050 50  0001 C CNN
+	1    9300 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR024
+U 1 1 60735470
+P 9300 1150
+F 0 "#PWR024" H 9300 1000 50  0001 C CNN
+F 1 "VCC" V 9315 1277 50  0000 L CNN
+F 2 "" H 9300 1150 50  0001 C CNN
+F 3 "" H 9300 1150 50  0001 C CNN
+	1    9300 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8250 1250 9300 1250
+Wire Wire Line
+	8250 1350 9300 1350
+Wire Wire Line
+	8250 1650 8250 1350
+$Comp
+L power:GND #PWR027
+U 1 1 6073547D
+P 9500 1750
+F 0 "#PWR027" H 9500 1500 50  0001 C CNN
+F 1 "GND" H 9505 1577 50  0000 C CNN
+F 2 "" H 9500 1750 50  0001 C CNN
+F 3 "" H 9500 1750 50  0001 C CNN
+	1    9500 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 7250 1750 0    50   Output ~ 0
+MISO
+Text GLabel 7250 1350 0    50   Input ~ 0
+MOSI
+Text GLabel 7250 2350 0    50   Input ~ 0
+SCL
+Text GLabel 7250 2850 0    50   Input ~ 0
+SSI_SPI_SEL
+Text GLabel 7250 1150 0    50   Input ~ 0
+nCS2
+Text GLabel 8250 1850 2    50   Input ~ 0
+nCS2
+Wire Wire Line
+	8700 2250 8700 1450
+Wire Wire Line
+	8250 2250 8700 2250
+Wire Wire Line
+	8700 1450 9300 1450
+Wire Wire Line
+	8900 2750 8900 1550
+Wire Wire Line
+	8900 1550 9300 1550
+Wire Wire Line
+	8250 2750 8900 2750
+$Comp
+L power:VCC #PWR015
+U 1 1 60735495
+P 7750 1000
+F 0 "#PWR015" H 7750 850 50  0001 C CNN
+F 1 "VCC" H 7765 1173 50  0000 C CNN
+F 2 "" H 7750 1000 50  0001 C CNN
+F 3 "" H 7750 1000 50  0001 C CNN
+	1    7750 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 607354A1
+P 8300 3200
+F 0 "C3" H 8392 3246 50  0000 L CNN
+F 1 "100nF 6.3V" H 8392 3155 50  0000 L CNN
+F 2 "" H 8300 3200 50  0001 C CNN
+F 3 "~" H 8300 3200 50  0001 C CNN
+F 4 "Generic" H 8300 3200 50  0001 C CNN "Manu"
+F 5 "Generic" H 8300 3200 50  0001 C CNN "Part"
+	1    8300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR019
+U 1 1 607354AB
+P 8300 3100
+F 0 "#PWR019" H 8300 2950 50  0001 C CNN
+F 1 "VCC" H 8315 3273 50  0000 C CNN
+F 2 "" H 8300 3100 50  0001 C CNN
+F 3 "" H 8300 3100 50  0001 C CNN
+	1    8300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 607354B5
+P 8300 3300
+F 0 "#PWR020" H 8300 3050 50  0001 C CNN
+F 1 "GND" H 8305 3127 50  0000 C CNN
+F 2 "" H 8300 3300 50  0001 C CNN
+F 3 "" H 8300 3300 50  0001 C CNN
+	1    8300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U2
+U 1 1 6074818D
+P 3950 4150
+F 0 "U2" V 4200 4250 50  0000 L CNN
+F 1 "74125" V 3995 4478 50  0001 L CNN
+F 2 "Package_DFN_QFN:Texas_S-PVQFN-N14" H 3950 4150 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617852170394&ref_url=https%253A%252F%252Feu.mouser.com%252F" H 3950 4150 50  0001 C CNN
+F 4 "SN74LV125ARGYRG4" V 3950 4150 50  0001 C CNN "Part"
+F 5 "TI" V 3950 4150 50  0001 C CNN "Manu"
+	1    3950 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U2
+U 2 1 60748197
+P 3950 4650
+F 0 "U2" V 4200 4900 50  0000 R CNN
+F 1 "74125" V 3905 4347 50  0001 R CNN
+F 2 "Package_DFN_QFN:Texas_S-PVQFN-N14" H 3950 4650 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617852170394&ref_url=https%253A%252F%252Feu.mouser.com%252F" H 3950 4650 50  0001 C CNN
+	2    3950 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U2
+U 3 1 607481A1
+P 3950 5150
+F 0 "U2" V 4200 5400 50  0000 R CNN
+F 1 "74125" V 3905 4847 50  0001 R CNN
+F 2 "Package_DFN_QFN:Texas_S-PVQFN-N14" H 3950 5150 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617852170394&ref_url=https%253A%252F%252Feu.mouser.com%252F" H 3950 5150 50  0001 C CNN
+	3    3950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U2
+U 4 1 607481AB
+P 3950 5650
+F 0 "U2" V 4200 5900 50  0000 R CNN
+F 1 "74125" V 3905 5347 50  0001 R CNN
+F 2 "Package_DFN_QFN:Texas_S-PVQFN-N14" H 3950 5650 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617852170394&ref_url=https%253A%252F%252Feu.mouser.com%252F" H 3950 5650 50  0001 C CNN
+	4    3950 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x06_MountingPin J3
+U 1 1 607481B7
+P 5700 4150
+F 0 "J3" H 5788 4064 50  0000 L CNN
+F 1 "Conn_01x06_MountingPin" H 5788 3973 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical" H 5700 4150 50  0001 C CNN
+F 3 "~" H 5700 4150 50  0001 C CNN
+F 4 "JST_SH_BM06B-SRSS-TB" H 5700 4150 50  0001 C CNN "Part"
+F 5 "JST" H 5700 4150 50  0001 C CNN "Manu"
+	1    5700 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 607481C1
+P 3950 5900
+F 0 "#PWR07" H 3950 5650 50  0001 C CNN
+F 1 "GND" H 3955 5727 50  0000 C CNN
+F 2 "" H 3950 5900 50  0001 C CNN
+F 3 "" H 3950 5900 50  0001 C CNN
+	1    3950 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 607481CB
+P 5500 3950
+F 0 "#PWR012" H 5500 3700 50  0001 C CNN
+F 1 "GND" V 5505 3822 50  0000 R CNN
+F 2 "" H 5500 3950 50  0001 C CNN
+F 3 "" H 5500 3950 50  0001 C CNN
+	1    5500 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR013
+U 1 1 607481D5
+P 5500 4050
+F 0 "#PWR013" H 5500 3900 50  0001 C CNN
+F 1 "VCC" V 5515 4177 50  0000 L CNN
+F 2 "" H 5500 4050 50  0001 C CNN
+F 3 "" H 5500 4050 50  0001 C CNN
+	1    5500 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 4150 5500 4150
+Wire Wire Line
+	4450 4250 5500 4250
+Wire Wire Line
+	4450 4550 4450 4250
+$Comp
+L power:GND #PWR014
+U 1 1 607481E2
+P 5700 4650
+F 0 "#PWR014" H 5700 4400 50  0001 C CNN
+F 1 "GND" H 5705 4477 50  0000 C CNN
+F 2 "" H 5700 4650 50  0001 C CNN
+F 3 "" H 5700 4650 50  0001 C CNN
+	1    5700 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 3450 4650 0    50   Output ~ 0
+MISO
+Text GLabel 3450 4250 0    50   Input ~ 0
+MOSI
+Text GLabel 3450 5250 0    50   Input ~ 0
+SCL
+Text GLabel 3450 5750 0    50   Input ~ 0
+SSI_SPI_SEL
+Text GLabel 3450 4050 0    50   Input ~ 0
+nCS3
+Text GLabel 4450 4750 2    50   Input ~ 0
+nCS3
+Wire Wire Line
+	4900 5150 4900 4350
+Wire Wire Line
+	4450 5150 4900 5150
+Wire Wire Line
+	4900 4350 5500 4350
+Wire Wire Line
+	5100 5650 5100 4450
+Wire Wire Line
+	5100 4450 5500 4450
+Wire Wire Line
+	4450 5650 5100 5650
+$Comp
+L power:VCC #PWR06
+U 1 1 607481FA
+P 3950 3900
+F 0 "#PWR06" H 3950 3750 50  0001 C CNN
+F 1 "VCC" H 3965 4073 50  0000 C CNN
+F 2 "" H 3950 3900 50  0001 C CNN
+F 3 "" H 3950 3900 50  0001 C CNN
+	1    3950 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 60748206
+P 4500 6100
+F 0 "C2" H 4592 6146 50  0000 L CNN
+F 1 "100nF 6.3V" H 4592 6055 50  0000 L CNN
+F 2 "" H 4500 6100 50  0001 C CNN
+F 3 "~" H 4500 6100 50  0001 C CNN
+F 4 "Generic" H 4500 6100 50  0001 C CNN "Manu"
+F 5 "Generic" H 4500 6100 50  0001 C CNN "Part"
+	1    4500 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR010
+U 1 1 60748210
+P 4500 6000
+F 0 "#PWR010" H 4500 5850 50  0001 C CNN
+F 1 "VCC" H 4515 6173 50  0000 C CNN
+F 2 "" H 4500 6000 50  0001 C CNN
+F 3 "" H 4500 6000 50  0001 C CNN
+	1    4500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 6074821A
+P 4500 6200
+F 0 "#PWR011" H 4500 5950 50  0001 C CNN
+F 1 "GND" H 4505 6027 50  0000 C CNN
+F 2 "" H 4500 6200 50  0001 C CNN
+F 3 "" H 4500 6200 50  0001 C CNN
+	1    4500 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U4
+U 1 1 60748226
+P 7750 4150
+F 0 "U4" V 8000 4250 50  0000 L CNN
+F 1 "74125" V 7795 4478 50  0001 L CNN
+F 2 "Package_DFN_QFN:Texas_S-PVQFN-N14" H 7750 4150 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617852170394&ref_url=https%253A%252F%252Feu.mouser.com%252F" H 7750 4150 50  0001 C CNN
+F 4 "SN74LV125ARGYRG4" V 7750 4150 50  0001 C CNN "Part"
+F 5 "TI" V 7750 4150 50  0001 C CNN "Manu"
+	1    7750 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U4
+U 2 1 60748230
+P 7750 4650
+F 0 "U4" V 8000 4900 50  0000 R CNN
+F 1 "74125" V 7705 4347 50  0001 R CNN
+F 2 "Package_DFN_QFN:Texas_S-PVQFN-N14" H 7750 4650 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617852170394&ref_url=https%253A%252F%252Feu.mouser.com%252F" H 7750 4650 50  0001 C CNN
+	2    7750 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U4
+U 3 1 6074823A
+P 7750 5150
+F 0 "U4" V 8000 5400 50  0000 R CNN
+F 1 "74125" V 7705 4847 50  0001 R CNN
+F 2 "Package_DFN_QFN:Texas_S-PVQFN-N14" H 7750 5150 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617852170394&ref_url=https%253A%252F%252Feu.mouser.com%252F" H 7750 5150 50  0001 C CNN
+	3    7750 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U4
+U 4 1 60748244
+P 7750 5650
+F 0 "U4" V 8000 5900 50  0000 R CNN
+F 1 "74125" V 7705 5347 50  0001 R CNN
+F 2 "Package_DFN_QFN:Texas_S-PVQFN-N14" H 7750 5650 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617852170394&ref_url=https%253A%252F%252Feu.mouser.com%252F" H 7750 5650 50  0001 C CNN
+	4    7750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x06_MountingPin J5
+U 1 1 60748250
+P 9500 4150
+F 0 "J5" H 9588 4064 50  0000 L CNN
+F 1 "Conn_01x06_MountingPin" H 9588 3973 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical" H 9500 4150 50  0001 C CNN
+F 3 "~" H 9500 4150 50  0001 C CNN
+F 4 "JST_SH_BM06B-SRSS-TB" H 9500 4150 50  0001 C CNN "Part"
+F 5 "JST" H 9500 4150 50  0001 C CNN "Manu"
+	1    9500 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 6074825A
+P 7750 5900
+F 0 "#PWR018" H 7750 5650 50  0001 C CNN
+F 1 "GND" H 7755 5727 50  0000 C CNN
+F 2 "" H 7750 5900 50  0001 C CNN
+F 3 "" H 7750 5900 50  0001 C CNN
+	1    7750 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 60748264
+P 9300 3950
+F 0 "#PWR025" H 9300 3700 50  0001 C CNN
+F 1 "GND" V 9305 3822 50  0000 R CNN
+F 2 "" H 9300 3950 50  0001 C CNN
+F 3 "" H 9300 3950 50  0001 C CNN
+	1    9300 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR026
+U 1 1 6074826E
+P 9300 4050
+F 0 "#PWR026" H 9300 3900 50  0001 C CNN
+F 1 "VCC" V 9315 4177 50  0000 L CNN
+F 2 "" H 9300 4050 50  0001 C CNN
+F 3 "" H 9300 4050 50  0001 C CNN
+	1    9300 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8250 4150 9300 4150
+Wire Wire Line
+	8250 4250 9300 4250
+Wire Wire Line
+	8250 4550 8250 4250
+$Comp
+L power:GND #PWR028
+U 1 1 6074827B
+P 9500 4650
+F 0 "#PWR028" H 9500 4400 50  0001 C CNN
+F 1 "GND" H 9505 4477 50  0000 C CNN
+F 2 "" H 9500 4650 50  0001 C CNN
+F 3 "" H 9500 4650 50  0001 C CNN
+	1    9500 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 7250 4650 0    50   Output ~ 0
+MISO
+Text GLabel 7250 4250 0    50   Input ~ 0
+MOSI
+Text GLabel 7250 5250 0    50   Input ~ 0
+SCL
+Text GLabel 7250 5750 0    50   Input ~ 0
+SSI_SPI_SEL
+Text GLabel 7250 4050 0    50   Input ~ 0
+nCS4
+Text GLabel 8250 4750 2    50   Input ~ 0
+nCS4
+Wire Wire Line
+	8700 5150 8700 4350
+Wire Wire Line
+	8250 5150 8700 5150
+Wire Wire Line
+	8700 4350 9300 4350
+Wire Wire Line
+	8900 5650 8900 4450
+Wire Wire Line
+	8900 4450 9300 4450
+Wire Wire Line
+	8250 5650 8900 5650
+$Comp
+L power:VCC #PWR017
+U 1 1 60748293
+P 7750 3900
+F 0 "#PWR017" H 7750 3750 50  0001 C CNN
+F 1 "VCC" H 7765 4073 50  0000 C CNN
+F 2 "" H 7750 3900 50  0001 C CNN
+F 3 "" H 7750 3900 50  0001 C CNN
+	1    7750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 6074829F
+P 8300 6100
+F 0 "C4" H 8392 6146 50  0000 L CNN
+F 1 "100nF 6.3V" H 8392 6055 50  0000 L CNN
+F 2 "" H 8300 6100 50  0001 C CNN
+F 3 "~" H 8300 6100 50  0001 C CNN
+F 4 "Generic" H 8300 6100 50  0001 C CNN "Manu"
+F 5 "Generic" H 8300 6100 50  0001 C CNN "Part"
+	1    8300 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR021
+U 1 1 607482A9
+P 8300 6000
+F 0 "#PWR021" H 8300 5850 50  0001 C CNN
+F 1 "VCC" H 8315 6173 50  0000 C CNN
+F 2 "" H 8300 6000 50  0001 C CNN
+F 3 "" H 8300 6000 50  0001 C CNN
+	1    8300 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 607482B3
+P 8300 6200
+F 0 "#PWR022" H 8300 5950 50  0001 C CNN
+F 1 "GND" H 8305 6027 50  0000 C CNN
+F 2 "" H 8300 6200 50  0001 C CNN
+F 3 "" H 8300 6200 50  0001 C CNN
+	1    8300 6200
+	1    0    0    -1  
+$EndComp
+Text GLabel 7250 2150 0    50   Input ~ 0
+nCS2
+Text GLabel 7250 2650 0    50   Input ~ 0
+nCS2
+Text GLabel 7250 5050 0    50   Input ~ 0
+nCS4
+Text GLabel 7250 5550 0    50   Input ~ 0
+nCS4
+Text GLabel 3450 5050 0    50   Input ~ 0
+nCS3
+Text GLabel 3450 5550 0    50   Input ~ 0
+nCS3
+$Comp
+L Device:LED_Small D1
+U 1 1 60786673
+P 1450 5050
+F 0 "D1" V 1496 4980 50  0000 R CNN
+F 1 "LED_Small" V 1405 4980 50  0000 R CNN
+F 2 "" V 1450 5050 50  0001 C CNN
+F 3 "~" V 1450 5050 50  0001 C CNN
+	1    1450 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 607885C1
+P 1450 5250
+F 0 "R1" H 1509 5296 50  0000 L CNN
+F 1 "R_Small" H 1509 5205 50  0000 L CNN
+F 2 "" H 1450 5250 50  0001 C CNN
+F 3 "~" H 1450 5250 50  0001 C CNN
+	1    1450 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR04
+U 1 1 60789258
+P 1450 4950
+F 0 "#PWR04" H 1450 4800 50  0001 C CNN
+F 1 "VCC" H 1465 5123 50  0000 C CNN
+F 2 "" H 1450 4950 50  0001 C CNN
+F 3 "" H 1450 4950 50  0001 C CNN
+	1    1450 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 60789B1A
+P 1450 5350
+F 0 "#PWR05" H 1450 5100 50  0001 C CNN
+F 1 "GND" H 1455 5177 50  0000 C CNN
+F 2 "" H 1450 5350 50  0001 C CNN
+F 3 "" H 1450 5350 50  0001 C CNN
+	1    1450 5350
+	1    0    0    -1  
+$EndComp
+Text Notes 2500 3150 0    50   ~ 0
+Bus state when not in use?\nOk to tri-state SSI_SPI_SEL?
+$EndSCHEMATC

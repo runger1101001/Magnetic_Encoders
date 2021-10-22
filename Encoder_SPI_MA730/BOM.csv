@@ -1,0 +1,8 @@
+"Item","Ref Des","Qty","Manufacturer","Mfg Part #","Description / Value","Package","Type","Your Instructions / Notes"
+"1","C2","1","Generic","Generic","1uF 6.3V","C_0402_1005Metric","?","; Unpolarized capacitor; "
+"2","D1","1","Wurth","150040VS73240","green","LED_0402_1005Metric","?","; Light emitting diode; "
+"3","H2,H1","2","","Mounting Hole with connection","MountingHole_Pad","MountingHole_2.2mm_M2_ISO7380_Pad","?","; Mounting Hole with connection; "
+"4","J1","1","JST","SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal","Conn_01x06_MountingPin","JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal","?","; Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/); "
+"5","J2","1","","Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)","Castellations_ABI","PinHeader_1x04_P2.54mm_Vertical","?","; Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/); "
+"6","R1","1","","Resistor","1k","R_0402_1005Metric","?","; Resistor; "
+"7","U1","1","","Magnetic rotary angle sensor, 14-bit, SPI interface, ABZ, PWM, QFN-16","MA730","QFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm","?","; Magnetic rotary angle sensor, 14-bit, SPI interface, ABZ, PWM, QFN-16; https://www.monolithicpower.com/pub/media/document/m/a/ma730_r1.01.pdf"

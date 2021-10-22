@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/runger/Documents/3d_printing/_small/Encoder_AEAT_8800_Q24/Encoder_AEAT_8800_Q24.sch</source>
+    <date>Tuesday, 13 April 2021 at 14:22:09</date>
+    <tool>Eeschema (5.1.6-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Encoder_AEAT_8800_Q24.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_01x06_MountingPin</value>
+      <footprint>Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manu">JST</field>
+        <field name="Part">SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal</field>
+        <field name="Port">SPI</field>
+      </fields>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x06_MountingPin" description="Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606AA1C6</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Castellations_SPI</value>
+      <footprint>runger:Castellations_x6_1.5p_1hole</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Port">ABI Pads</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606B3853</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>runger:MountingHole_Pad_1.75mm_2.75mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606B9545</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>runger:MountingHole_Pad_1.75mm_2.75mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606BAFAA</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF 6.3V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manu">Murata</field>
+        <field name="Notes">or other 6.3V 10uF capacitor</field>
+        <field name="Part">GRM155R60J106ME15D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606CD915</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manu">Generic</field>
+        <field name="Part">Generic</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606DE776</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>green</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manu">Wurth</field>
+        <field name="Part">150040VS73240</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606DEF18</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AEAT_8800_Q24</value>
+      <footprint>Package_DFN_QFN:QFN-24-1EP_5x5mm_P0.65mm_EP3.2x3.2mm</footprint>
+      <datasheet>https://docs.broadcom.com/doc/pub-005892</datasheet>
+      <fields>
+        <field name="Manu">Broadcom</field>
+        <field name="Part">AEAT-8800-Q24TR</field>
+      </fields>
+      <libsource lib="runger" part="AEAT_8800_Q24" description="10- to 16-Bit Programmable Angular Magnetic Encoder"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60704AED</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF 6.3V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manu">AVX</field>
+        <field name="Notes">or similar 6.3V 100nF capacitor</field>
+        <field name="Part">04026D104KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6070DAB5</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic_MountingPin" part="Conn_01x06_MountingPin">
+      <description>Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_MountingPin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="runger" part="AEAT_8800_Q24">
+      <description>10- to 16-Bit Programmable Angular Magnetic Encoder</description>
+      <docs>https://docs.broadcom.com/doc/pub-005892</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AEAT_8800_Q24</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-24-1EP_5x5mm_P0.65mm_EP3.2x3.2mm</field>
+        <field name="Part">AEAT_8800_Q24</field>
+        <field name="Manu">Broadcom</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="NC" type="NotConnected"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="I" type="output"/>
+        <pin num="8" name="B" type="output"/>
+        <pin num="9" name="A" type="output"/>
+        <pin num="10" name="SSI_SCL_SPI_CLK" type="input"/>
+        <pin num="11" name="SSI_NSL_SPI_DI" type="input"/>
+        <pin num="12" name="SSI_DO_SPI_DO" type="output"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="VDDA" type="power_in"/>
+        <pin num="15" name="NC" type="NotConnected"/>
+        <pin num="16" name="NC" type="NotConnected"/>
+        <pin num="17" name="NC" type="NotConnected"/>
+        <pin num="18" name="NC" type="NotConnected"/>
+        <pin num="19" name="VDDA" type="power_in"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="SSI_SPI_SEL" type="input"/>
+        <pin num="22" name="U" type="output"/>
+        <pin num="23" name="V" type="output"/>
+        <pin num="24" name="W/PWM" type="output"/>
+        <pin num="25" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/Library/Application Support/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Connector_Generic_MountingPin">
+      <uri>/Library/Application Support/kicad/library/Connector_Generic_MountingPin.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Library/Application Support/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="runger">
+      <uri>/Users/runger/Documents/making/kicad/runger.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="VCC">
+      <node ref="J1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="H1" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U1" pin="19"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="2" name="MOSI">
+      <node ref="U1" pin="11"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="3" name="MISO">
+      <node ref="U1" pin="12"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="4" name="SCK">
+      <node ref="U1" pin="10"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="5" name="nCS">
+      <node ref="U1" pin="21"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="6" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="C2" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="H2" pin="1"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="20"/>
+      <node ref="U1" pin="25"/>
+      <node ref="J1" pin="MP"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="14" name="UVW_U">
+      <node ref="U1" pin="22"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="15" name="UVW_V">
+      <node ref="U1" pin="23"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="16" name="UVW_W-PWM">
+      <node ref="U1" pin="24"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="21" name="ABI_I">
+      <node ref="U1" pin="7"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="22" name="ABI_B">
+      <node ref="U1" pin="8"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="23" name="ABI_A">
+      <node ref="U1" pin="9"/>
+      <node ref="J2" pin="1"/>
+    </net>
+  </nets>
+</export>
