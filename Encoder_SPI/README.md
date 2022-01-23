@@ -2,9 +2,21 @@
 
 Small (21x17mm) board for the AS5048A magnetic absolute angle sensor.
 
-TODO images of finished board
+For use in motor control or robotics applications, the sensor precisely measures the orientation (angle in the plane) of a nearby diametrically magnetized magnet.
 
-For use in motor control or robotics applications.
+That sounds more complicated than using it really is, so lets describe it another way:
+- attach the magnet to the axis of something that rotates
+- put the sensor near it
+- read precise angles with your Arduino
+
+Back of board with SH 1.0 connector
+
+<img src="./as5048a_back.jpg" width="300" />
+
+Front of board with sensor
+
+<img src="./as5048a_front.jpg" width="300" />
+
 
 ## Features
 
@@ -17,6 +29,10 @@ For use in motor control or robotics applications.
 Datasheet of the sensor: https://ams.com/documents/20143/36005/AS5048_DS000298_4-00.pdf
 
 ## Usage
+
+The sensor has to be precisely positioned near the magnet. The magnet should be precisely on-axis and in-plane (no wobble!). The sensor should be mounted with an air-gap of about 0.5mm to the magnet.
+
+Taking the time to mount the magnet and sensor board carefully will improve the accuracy and smoothness of your readings.
 
 The sensor has an SPI interface:
 
