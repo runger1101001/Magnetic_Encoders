@@ -1,7 +1,0 @@
-Item #,Ref Des,Qty,Manufacturer,Mfg Part #, Description / Value,Package,Type,Your Instructions / Notes
-1,U1,1,AMS,AS5048A,AS5048A,TSSOP-14_4.4x5mm_P0.65mm,SMD,
-2,J1,1,JST,JST_SH_SM06B-SRSS-TB_1x06-1MP,JST SH 1.0mm 6-pin horizontal socket,JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal,SMD,
-7,R5,1,Generic,Generic,4.7kΩ,R_0402_1005Metric,SMD,
-8,D1,1,Generic,Generic,Green LED,LED_0402_1005Metric,SMD,"Please choose inexpensive green LED, for example ROHM SML-P13FTT86R"
-9,C2,1,Generic,Generic,100nF 6.3V Ceramic,C_0402_1005Metric,SMD,
-10,C1,1,Generic,Generic,10µF 6.3V Ceramic,C_0402_1005Metric,SMD,
