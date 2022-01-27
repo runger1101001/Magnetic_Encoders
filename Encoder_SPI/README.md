@@ -28,6 +28,15 @@ Front of board with sensor
 
 Datasheet of the sensor: https://ams.com/documents/20143/36005/AS5048_DS000298_4-00.pdf
 
+## Getting one
+
+You may be able to buy some here:
+
+<a href="https://www.tindie.com/stores/smallrobots/as5048a-encoder-board-for-robots-motor-control/?ref=offsite_badges&utm_source=sellers_runger1101001&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
+
+Or you could make one - it is open source, you will find gerber files and BOM in the repo, and design files for KiCad 6.
+
+
 ## Usage
 
 The sensor has to be precisely positioned near the magnet. The magnet should be precisely on-axis and in-plane (no wobble!). The sensor should be mounted with an air-gap of about 0.5mm to the magnet.
@@ -36,11 +45,18 @@ Taking the time to mount the magnet and sensor board carefully will improve the 
 
 The sensor has an SPI interface:
 
-![SPI pinout](./SPI_pinout.png "SPI pinout")
+<img src="./SPI_pinout.png" width="100" />
 
 The SPI interface is available on a JST-SH 6-pin socket. Pre-made cables are available cheaply on AliExpress and other sources.
 
 You may connect VCC to either 3.3V or 5V. 
+
+Sensor board v1.0:
+
+- If using 5V, leave the connection between the solder bridge pads on the back (sensor) side of the board open.
+- If using 3.3V, close the solder-bridge.
+
+Sensor board v1.1:
 
 - If using 5V, break the connection between teh solder bridge pads on the back (sensor) side of the board.
 - If using 3.3V, do not break (or re-connect) the solder-bridge.
@@ -72,4 +88,4 @@ A driver for the sensor for Arduino and SimpleFOC can be found here: [SimpleFOC 
 
 21 x 17 x 4mm
 
-![Dimensions](./dimensions.png)
+<img src="./dimensions.png" width="400" />
