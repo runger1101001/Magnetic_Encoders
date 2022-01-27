@@ -9,14 +9,9 @@ That sounds more complicated than using it really is, so lets describe it anothe
 - put the sensor near it
 - read precise angles with your Arduino
 
-Back of board with SH 1.0 connector
-
-<img src="./as5048a_back.jpg" width="300" />
-
-Front of board with sensor
-
-<img src="./as5048a_front.jpg" width="300" />
-
+| Back of board | Front of board |
+| --- | --- |
+| with SH 1.0 connector <img src="./pics/as5048a_back.jpg" width="300" /> | with sensor <img src="./pics/as5048a_front.jpg" width="300" /> |
 
 ## Features
 
@@ -45,7 +40,7 @@ Taking the time to mount the magnet and sensor board carefully will improve the 
 
 The sensor has an SPI interface:
 
-<img src="./SPI_pinout.png" width="100" />
+<img src="pics/SPI_pinout.png" width="100" />
 
 The SPI interface is available on a JST-SH 6-pin socket. Pre-made cables are available cheaply on AliExpress and other sources.
 
@@ -53,13 +48,17 @@ You may connect VCC to either 3.3V or 5V.
 
 Sensor board v1.0:
 
-- If using 5V, leave the connection between the solder bridge pads on the back (sensor) side of the board open.
+- If using 5V, leave the connection between the solder bridge pads on the back side of the board open.
 - If using 3.3V, close the solder-bridge.
+
+| 5V | 3.3V |
+| :---: | :---: |
+|  <img src="pics/solder_bridge_open.jpg" width="100" />  | <img src="pics/solder_bridge_closed.jpg" width="100" /> |
 
 Sensor board v1.1:
 
-- If using 5V, break the connection between teh solder bridge pads on the back (sensor) side of the board.
-- If using 3.3V, do not break (or re-connect) the solder-bridge.
+- If using 5V, break the connection between the solder bridge pads on the back side of the board.
+- If using 3.3V, leave as is, do not break the solder-bridge.
 
 Connect the other lines (MOSI, MISO, CLK and CS) to the respective counterparts on your MCU board.
 
@@ -72,7 +71,7 @@ SPI interface:
 - MSB first
 - max 10MHz SPI clock
 
-See datasheet for details, or use software driver.
+See [datasheet](https://ams.com/documents/20143/36005/AS5048_DS000298_4-00.pdf) for details, or use an existing software driver.
 
 :warning: Note: cable length, shielding (or lack thereof) and environmental noise may limit performance to significantly less than the 10MHz maximum.
 
@@ -88,4 +87,4 @@ A driver for the sensor for Arduino and SimpleFOC can be found here: [SimpleFOC 
 
 21 x 17 x 4mm
 
-<img src="./dimensions.png" width="400" />
+<img src="./pics/dimensions.png" width="400" />
