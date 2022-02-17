@@ -31,6 +31,11 @@ You may be able to buy some here:
 
 Or you could make one - it is open source, you will find gerber files and BOM in the repo, and design files for KiCad 6.
 
+## Getting help
+
+Please visit our discord: https://discord.gg/FwTymtVhMU
+
+Or if you have found a problem, you can also open a bug-ticket here on GitHub.
 
 ## Usage
 
