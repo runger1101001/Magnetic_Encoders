@@ -46,7 +46,12 @@ The SPI interface is available on a JST-SH 6-pin socket. Pre-made cables are ava
 
 You may connect VCC to either 3.3V or 5V. 
 
-Sensor board v1.0:
+Sensor board v1.1 (current version):
+
+- If using 5V, break the connection between the solder bridge pads on the back side of the board.
+- If using 3.3V, leave as is, do not break the solder-bridge.
+
+Sensor board v1.0 (older version):
 
 - If using 5V, leave the connection between the solder bridge pads on the back side of the board open.
 - If using 3.3V, close the solder-bridge.
@@ -54,11 +59,6 @@ Sensor board v1.0:
 | 5V | 3.3V |
 | :---: | :---: |
 |  <img src="pics/solder_bridge_open.jpg" width="100" />  | <img src="pics/solder_bridge_closed.jpg" width="100" /> |
-
-Sensor board v1.1:
-
-- If using 5V, break the connection between the solder bridge pads on the back side of the board.
-- If using 3.3V, leave as is, do not break the solder-bridge.
 
 Connect the other lines (MOSI, MISO, CLK and CS) to the respective counterparts on your MCU board.
 
@@ -88,3 +88,16 @@ A driver for the sensor for Arduino and SimpleFOC can be found here: [SimpleFOC 
 21 x 17 x 4mm
 
 <img src="./pics/dimensions.png" width="400" />
+
+## Cables
+
+Pre-made JST SH 1.0 cables are available. When buying cables with two plugs, choose the type that is called "reverse connection" - where the pins on both ends of the cable have the same order.
+
+Some links to compatible cables / breakout boards:
+
+ - https://www.tindie.com/products/26431/
+ - https://www.aliexpress.com/item/4000421829259.html
+ - https://www.aliexpress.com/item/4001235017139.html
+ - https://www.pololu.com/product/4770
+ - https://www.pololu.com/product/4772
+

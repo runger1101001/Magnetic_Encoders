@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/runger/Documents/making/_Encoders/Encoder_SPI_MT6701_I2CAdapter/Encoder_SPI_MT6701_I2CAdapter.kicad_sch</source>
+    <date>Friday, 22 April 2022 at 18:42:36</date>
+    <tool>Eeschema (6.0.0-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Encoder_SPI_MT6701_I2CAdapter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF 10V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manu">Murata</field>
+        <field name="Part">GRM155R71A104KA01J</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Part" value="GRM155R71A104KA01J"/>
+      <property name="Manu" value="Murata"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Encoder_SPI_MT6701_I2CAdapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ecdc9fe3-db20-44e2-a3ce-b59475625c6a</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF 10V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manu">Murata</field>
+        <field name="Part">GRM155R71A104KA01J</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Part" value="GRM155R71A104KA01J"/>
+      <property name="Manu" value="Murata"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Encoder_SPI_MT6701_I2CAdapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>725dd718-febe-4949-8193-86193ead914c</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>green</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manu">Wurth</field>
+        <field name="Notes">inexpensive green LED please</field>
+        <field name="Part">150040VS73240</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Manu" value="Wurth"/>
+      <property name="Part" value="150040VS73240"/>
+      <property name="Notes" value="inexpensive green LED please"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Encoder_SPI_MT6701_I2CAdapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0f4840d-251b-497a-aa65-da6f02b62e15</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>green</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manu">Wurth</field>
+        <field name="Notes">inexpensive green LED please</field>
+        <field name="Part">150040VS73240</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Manu" value="Wurth"/>
+      <property name="Part" value="150040VS73240"/>
+      <property name="Notes" value="inexpensive green LED please"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Encoder_SPI_MT6701_I2CAdapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd2505d8-1d6b-484a-b43a-ab346f82a011</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Encoder_SPI_MT6701_I2CAdapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cfbf68e-2c56-436c-ba69-9a30242501fe</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Encoder_SPI_MT6701_I2CAdapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61b7d3da-056a-4566-bf3f-c21e50d24246</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>3.3V in</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Encoder_SPI_MT6701_I2CAdapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4171fc52-a3ee-4542-af84-e3a57aa7388c</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>JST_SH_SM04B</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="Manu">JST</field>
+        <field name="Part">SH_SM04B-SRSS-TB_1x04-1MP</field>
+        <field name="Port">I2C</field>
+      </fields>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x04_MountingPin" description="Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Port" value="I2C"/>
+      <property name="Manu" value="JST"/>
+      <property name="Part" value="SH_SM04B-SRSS-TB_1x04-1MP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Encoder_SPI_MT6701_I2CAdapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8979010f-cd1c-430c-991b-386ba363fd41</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>5V in</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Encoder_SPI_MT6701_I2CAdapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d3478ec-0428-4032-a38d-182b5fd7f95f</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>JST_SH_SM06B</value>
+      <footprint>Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="Manu">JST</field>
+        <field name="Notes">JST SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal or compatible, e.g. Joint Tech A1001WR-S-6P</field>
+        <field name="Part">SH_SM06B-SRSS-TB_1x06-1MP</field>
+        <field name="Port">SPI</field>
+      </fields>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x06_MountingPin" description="Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Port" value="SPI"/>
+      <property name="Manu" value="JST"/>
+      <property name="Part" value="SH_SM06B-SRSS-TB_1x06-1MP"/>
+      <property name="Notes" value="JST SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal or compatible, e.g. Joint Tech A1001WR-S-6P"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Encoder_SPI_MT6701_I2CAdapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74be098e-7926-4d68-b443-c4a9db150b87</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>JP</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Encoder_SPI_MT6701_I2CAdapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03bd49ec-1c8d-4d74-88bb-5dd8805d1868</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>JP</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Encoder_SPI_MT6701_I2CAdapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b0e85ec-b94c-4e77-a4d7-54508f0eb749</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manu">Generic</field>
+        <field name="Part">Generic 2k2 Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Part" value="Generic 2k2 Resistor"/>
+      <property name="Manu" value="Generic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Encoder_SPI_MT6701_I2CAdapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72c228b4-4bf0-4fde-abb0-e8548cd05155</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manu">Generic</field>
+        <field name="Part">Generic 2k2 Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Part" value="Generic 2k2 Resistor"/>
+      <property name="Manu" value="Generic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Encoder_SPI_MT6701_I2CAdapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d1159b4-6bad-4ddd-816d-cccca8987744</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manu">Generic</field>
+        <field name="Part">Generic 2k2 Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Part" value="Generic 2k2 Resistor"/>
+      <property name="Manu" value="Generic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Encoder_SPI_MT6701_I2CAdapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22d943d4-5398-4a8f-b98b-1e64d134ff56</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manu">Generic</field>
+        <field name="Part">Generic 2k2 Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Part" value="Generic 2k2 Resistor"/>
+      <property name="Manu" value="Generic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Encoder_SPI_MT6701_I2CAdapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af6e05eb-fef3-46b2-8baa-1c6812799143</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manu">Generic</field>
+        <field name="Part">Generic 2k2 Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Part" value="Generic 2k2 Resistor"/>
+      <property name="Manu" value="Generic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Encoder_SPI_MT6701_I2CAdapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec927922-b657-47a5-9ccd-872090ae70d2</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manu">Generic</field>
+        <field name="Part">Generic 2k2 Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Part" value="Generic 2k2 Resistor"/>
+      <property name="Manu" value="Generic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Encoder_SPI_MT6701_I2CAdapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa55ab7a-0e38-48bf-b22a-fc97031f5b9c</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manu">Generic</field>
+        <field name="Part">Generic 2k2 Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Part" value="Generic 2k2 Resistor"/>
+      <property name="Manu" value="Generic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Encoder_SPI_MT6701_I2CAdapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>faf6861f-140f-4520-8b1e-4c8a16d409bb</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>NXB0102GTX</value>
+      <footprint>runger:SOT833-1 (XSON8)</footprint>
+      <datasheet>https://www.mouser.at/datasheet/2/916/NXB0102-1714053.pdf</datasheet>
+      <fields>
+        <field name="Manu">NXP</field>
+        <field name="Part">NXB0102GTX</field>
+      </fields>
+      <libsource lib="runger" part="NXB0102GTX" description="Dual supply translating transceiver; auto direction sensing; 3-state"/>
+      <property name="Manu" value="NXP"/>
+      <property name="Part" value="NXB0102GTX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Encoder_SPI_MT6701_I2CAdapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f86c136-a6a0-44e4-98c5-ec3baf86fdf4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic_MountingPin" part="Conn_01x04_MountingPin">
+      <description>Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_MountingPin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic_MountingPin" part="Conn_01x06_MountingPin">
+      <description>Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_MountingPin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="runger" part="NXB0102GTX">
+      <description>Dual supply translating transceiver; auto direction sensing; 3-state</description>
+      <docs>https://www.mouser.at/datasheet/2/916/NXB0102-1714053.pdf</docs>
+      <footprints>
+        <fp>SSOP*2.95x2.8mm*P0.65mm*</fp>
+        <fp>VSSOP*2.3x2mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NXB0102GTX</field>
+        <field name="Footprint">runger:SOT833-1 (XSON8)</field>
+        <field name="Datasheet">https://www.mouser.at/datasheet/2/916/NXB0102-1714053.pdf</field>
+        <field name="Manu">NXP</field>
+        <field name="Part">NXB0102GTX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B2" type="bidirectional"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCCA" type="power_in"/>
+        <pin num="4" name="A2" type="bidirectional"/>
+        <pin num="5" name="A1" type="bidirectional"/>
+        <pin num="6" name="OE" type="input"/>
+        <pin num="7" name="VCCB" type="power_in"/>
+        <pin num="8" name="B1" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="runger" part="Robo_Logo">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">Robo_Logo</field>
+        <field name="Footprint">runger:Robo_logo2</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic_MountingPin">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic_MountingPin.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="runger">
+      <uri>/Users/runger/Documents/making/kicad/kicad-lib-runger/runger.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/MISO">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="B2" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/SCK">
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="B1" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/SCL_A">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/SDA_A">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="MP" pinfunction="MountPin" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="MP" pinfunction="MountPin" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="6" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(JP2-Pad2)">
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="OE" pintype="input"/>
+    </net>
+    <net code="11" name="VCC">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="VCCB" pintype="power_in"/>
+    </net>
+    <net code="12" name="VDD">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VCCA" pintype="power_in"/>
+    </net>
+    <net code="13" name="unconnected-(J4-Pad3)">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

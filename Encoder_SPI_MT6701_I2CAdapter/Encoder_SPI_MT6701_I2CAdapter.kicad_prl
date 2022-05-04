@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 36,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -33,6 +33,7 @@
       3,
       4,
       5,
+      8,
       9,
       10,
       11,
@@ -61,11 +62,11 @@
       35,
       36
     ],
-    "visible_layers": "0001830_00000001",
+    "visible_layers": "7fcffff_80000001",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "Encoder.kicad_prl",
+    "filename": "Encoder_SPI_MT6701_I2CAdapter.kicad_prl",
     "version": 3
   },
   "project": {

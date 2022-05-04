@@ -12,9 +12,9 @@ Where sensors use SPI or SSI, they all use the same pinouts.
 
 Please consult the individual subdirectories for more information. If a sub-directory does not contain a README, use at your own risk.
 
-## Finished tested designs
+## Finished and tested designs
 
 - [AS5048A](./Encoder_SPI/)
 - [AS5048B](./Encoder/)
 - [TLE5012B](./Encoder_SPI_TLE5012B/)
-
+- [SC60228](./Encoder_SPI_SC60228/)

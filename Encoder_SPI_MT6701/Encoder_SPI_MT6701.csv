@@ -1,0 +1,8 @@
+Item,Ref Des,Qty,Manufacturer,Mfg Part #,Description / Value,Package,Type,Your Instructions / Notes
+1,C2,1,Murata,GRM155R71A104KA01J,100nF 10V,C_0402_1005Metric,SMD,; Unpolarized capacitor; 
+2,D1,1,Wurth,150040VS73240,green,LED_0402_1005Metric,SMD,inexpensive green LED please; Light emitting diode; 
+3,D2,1,Littlefuse,SP1005-01WTG,6V TVS,D_0201_0603Metric,SMD,; Bidirectional transient-voltage-suppression diode; 
+4,J1,1,Scondar Electronic Limited,SCT-WR-S-06P,Conn_01x06_MountingPin,JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal,SMD,"JST SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal or compatible, e.g. Joint Tech A1001WR-S-6P; Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/);"
+5,R1,1,Generic,Generic 2k2 Resistor,2k2,R_0402_1005Metric,SMD,; Resistor; 
+6,SW1,1,ROCPU,THS101,SW_DIP_x01,SW_DIP_SPSTx01_Slide_Copal_CHS-01B_W7.62mm_P1.27mm,SMD,"; 1x DIP Switch, Single Pole Single Throw (SPST) switch;"
+7,U1,1,MagnTek,MT6701QT-STD,MT6701QT,QFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm,SMD,"; Magnetic rotary angle sensor, 14-bit, SPI interface, ABZ, PWM, QFN-16; https://www.monolithicpower.com/pub/media/document/m/a/ma330.pdf"

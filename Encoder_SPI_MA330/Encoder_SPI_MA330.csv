@@ -1,0 +1,6 @@
+Item,Ref Des,Qty,Manufacturer,Mfg Part #,Description / Value,Package,Type,Your Instructions / Notes
+1,C2,1,Murata,GRT155C80J105KE01D,1uF 6.3V,C_0402_1005Metric,SMD,; Unpolarized capacitor; 
+2,D1,1,Wurth,150040VS73240,green,LED_0402_1005Metric,SMD,; Light emitting diode; 
+3,J1,1,JST,SH_SM06B-SRSS-TB_1x06-1MP,Conn_01x06_MountingPin,JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal,SMD,"Alternative parts: Scrondar SCT-WR-S-06P, Joint Tech A1001WR-S-6P"
+4,R1,1,Generic,Resistor,1k,R_0402_1005Metric,SMD,; Resistor; 
+5,U1,1,Monolithic Power Systems,MA330GQ-Z,MA730,QFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm,SMD,"Availability at Mouser from 22.4.2022; Magnetic rotary angle sensor, 14-bit, SPI interface, ABZ, UVW, QFN-16; https://www.monolithicpower.com/pub/media/document/m/a/ma330.pdf"
