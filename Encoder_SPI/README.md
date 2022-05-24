@@ -90,7 +90,8 @@ A driver for the sensor for Arduino and SimpleFOC can be found here: [SimpleFOC 
 
 ## Physical dimensions
 
-21 x 17 x 4mm
+v1.1: 21 x 17 x 3.4mm (1mm PCB)
+v1.0: 21 x 17 x 4mm (1.6mm PCB)
 
 <img src="./pics/dimensions.png" width="400" />
 
