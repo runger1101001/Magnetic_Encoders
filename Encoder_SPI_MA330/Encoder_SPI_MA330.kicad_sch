@@ -1120,7 +1120,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d7b3d)
     (property "Reference" "U1" (id 0) (at 120.65 71.12 0))
-    (property "Value" "MA730" (id 1) (at 137.16 71.12 0))
+    (property "Value" "MA330" (id 1) (at 137.16 71.12 0))
     (property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm" (id 2) (at 129.54 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1317,7 +1317,7 @@
       (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000606d7b3d"
-      (reference "U1") (unit 1) (value "MA730") (footprint "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm")
+      (reference "U1") (unit 1) (value "MA330") (footprint "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm")
     )
   )
 )
