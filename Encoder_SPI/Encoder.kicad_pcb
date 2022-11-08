@@ -137,7 +137,7 @@
       (net 1 "GND") (pintype "passive") (tstamp 0f54db53-a272-4955-88fb-d7ab00657bb0))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "VCC") (pintype "passive") (tstamp 922058ca-d09a-45fd-8394-05f3e2c1e03a))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -183,7 +183,7 @@
   )
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" locked (layer "F.Cu")
-    (tedit 61E5FFD1) (tstamp 00000000-0000-0000-0000-00005f5efd9a)
+    (tedit 62A26B41) (tstamp 00000000-0000-0000-0000-00005f5efd9a)
     (at 123.188 89.712 135)
     (descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
     (tags "net tie solder jumper bridged")
@@ -205,6 +205,7 @@
         (xy -0.25 0.3)
         (xy 0.25 0.3)
       ) (layer "F.Cu") (width 0) (fill solid) (tstamp c119a1a2-3b30-4c1d-9675-f5e1b8ed5861))
+    (fp_rect (start -0.15 -0.75) (end 0.15 0.75) (layer "F.Mask") (width 0) (fill solid) (tstamp 7eebb937-5634-42da-bd7e-2e0260369d0e))
     (fp_line (start -1.65 -1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp 17a8d7a9-e992-473d-a746-bb63b875c201))
     (fp_line (start 1.65 1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp 1f448db4-523f-4816-8047-2eb8e535d2a6))
     (fp_line (start 1.65 1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp e6e69fee-938d-45fd-a853-40f6cc6c3b45))
@@ -336,10 +337,10 @@
       (net 11 "CS") (pinfunction "Pin_6") (pintype "passive") (tstamp 0dcdf1b8-13c6-48b4-bd94-5d26038ff231))
     (pad "MP" smd roundrect locked (at 3.8 1.875) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208) (tstamp 03d88a85-11fd-47aa-954c-c318bb15294a))
     (pad "MP" smd roundrect locked (at -3.8 1.875) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208) (tstamp 1a2f72d1-0b36-4610-afc4-4ad1660d5d3b))
-    (model "${RUNGER3D}/jst-sh-smd-connectors-1/SMxxB-SRSS-TB/SM06B-SRSS-TB.STEP"
-      (offset (xyz 0 0 0))
+    (model "/Users/runger/Documents/making/kicad/3D/jst-sh-smd-connectors-1/SMxxB-SRSS-TB/SM06B-SRSS-TB.STEP"
+      (offset (xyz 0 1.5 -0.3))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -379,7 +380,7 @@
       (net 10 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 9340c285-5767-42d5-8b6d-63fe2a40ddf3))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "VCC") (pinfunction "A") (pintype "passive") (tstamp c41b3c8b-634e-435a-b582-96b83bbd4032))
-    (model "${KISYS3DMOD}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -419,7 +420,7 @@
       (net 1 "GND") (pintype "passive") (tstamp ac264c30-3e9a-4be2-b97a-9949b68bd497))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 10 "Net-(D1-Pad1)") (pintype "passive") (tstamp 5038e144-5119-49db-b6cf-f7c345f1cf03))
-    (model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -459,7 +460,7 @@
       (net 2 "Net-(C1-Pad1)") (pintype "passive") (tstamp 003c2200-0632-4808-a662-8ddd5d30c768))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp 240e07e1-770b-4b27-894f-29fd601c924d))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1096,7 +1097,7 @@
       (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 4d4b0fcd-2c79-4fc3-b5fa-7a0741601344))
     (pad "14" smd rect locked (at 2.95 1.95) (size 1.45 0.43) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 4 "Net-(J2-Pad1)") (pinfunction "PWM") (pintype "output") (tstamp e25ce415-914a-48fe-bf09-324317917b2e))
-    (model "${KISYS3DMOD}/Package_SO.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
