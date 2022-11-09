@@ -1,0 +1,7 @@
+Item,Ref Des,Qty,Manufacturer,Mfg Part #,Description / Value,Package,Type,Your Instructions / Notes
+1,C1,1,Murata,GRM155R71A104KA01J,100nF 10V,C_0402_1005Metric,?,; Unpolarized capacitor; 
+2,D1,1,Littlefuse,SP1005-01WTG,6V TVS,D_0201_0603Metric,?,; Bidirectional transient-voltage-suppression diode; 
+3,D2,1,Wurth,150040VS73240,green,LED_0402_1005Metric,?,inexpensive green LED please; Light emitting diode; 
+4,"J1,J3",2,JST,Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal,Conn_01x06_MountingPin,JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal,?,"Alternative parts: Scrondar SCT-WR-S-06P, Joint Tech A1001WR-S-6P; Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/);"
+5,R1,1,Generic,Generic 2k2 Resistor,2k2,R_0402_1005Metric,?,; Resistor; 
+6,U1,1,MagnTek,MT6835GT-STD,MT6835,TSSOP-16_4.4x5mm_P0.65mm,?,; High accuracy (21 bit) absolute magnetic encoder; http://www.magntek.com.cn/upload/MT6835_Rev.1.3.pdf
