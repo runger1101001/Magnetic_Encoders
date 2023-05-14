@@ -1,0 +1,31 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "hbackbone": "3mm",
+        "hboneskip": "1",
+        "rotation": "90deg",
+        "rows": "4",
+        "cols": "5"
+    },
+    "tabs": {
+        "type": "annotation",
+        "tabfootprints": "PCM_kikit:Tab"
+    },
+    "cuts": {
+        "type": "mousebites"
+    },
+    "framing": {
+        "type": "frame"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "5mm",
+        "voffset": "2.5mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "10mm",
+        "voffset": "2.5mm"
+    }
+}
