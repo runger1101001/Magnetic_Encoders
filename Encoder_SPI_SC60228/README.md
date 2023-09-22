@@ -20,7 +20,9 @@ That sounds more complicated than using it really is, so lets describe it anothe
 - SPI interface up to 10MHz
 - power indication LED (green, dim)
 
-Datasheet of the sensor: https://semiment.com/wp-content/uploads/2021/04/SC60228_EN-VA1.0.pdf
+Datasheet of the sensor: http://www.semiment.com/download?filePath=product/fuCDPH4YG3usSN69gqmqQ3rSuHEqBBjj6cn1mMuu.pdf&fileName=SC60228_EN-VA1.0.pdf
+
+:warning: the sensor's SPI interface does not seem to be 100% compatible with standard SPI implementations. Depending on your MCU type and framework, your milage may vary.
 
 ## Getting one
 
@@ -51,11 +53,11 @@ Note: The sensor board does not pull the CS line up.
 ## Communications
 
 SPI interface:
-- SPI Mode 1
+- SPI Mode 1 / SPI Mode 0 (depends on MCU type)
 - MSB first
 - max 10MHz SPI clock
 
-See [datasheet](https://semiment.com/wp-content/uploads/2021/04/SC60228_EN-VA1.0.pdf) for details, or use an existing software driver.
+See [datasheet](http://www.semiment.com/download?filePath=product/fuCDPH4YG3usSN69gqmqQ3rSuHEqBBjj6cn1mMuu.pdf&fileName=SC60228_EN-VA1.0.pdf) for details, or use an existing software driver.
 
 :warning: Note: cable length, shielding (or lack thereof) and environmental noise may limit performance to significantly less than the 10MHz maximum.
 
