@@ -11,7 +11,7 @@ That sounds more complicated than using it really is, so lets describe it anothe
 
 | Back of board | Front of board |
 | --- | --- |
-| with SH 1.0 connector <img src="./pics/as5047p_back.jpg" width="300" /> | with sensor <img src="./pics/as5047p_front.jpg" width="300" /> |
+| with SH 1.0 connectors <br><img src="./pics/as5047p_back.jpg" width="300" /> | with sensor <br><img src="./pics/as5047p_front.jpg" width="300" /> |
 
 ## Features
 
@@ -42,7 +42,8 @@ The sensor has SPI and ABZ interfaces:
 
 |SPI|ABZ|
 |---|---|
-|<img src="../Encoder_SPI/pics/SPI_pinout.png" width="100" />|<img src="pics/ABZ_pinout.png" width="100" />|
+|<img src="pics/SPI_pinout.png" width="232" />|<img src="pics/ABZ_pinout.png" width="215" />|
+
 
 The SPI interface is available on a JST-SH 6-pin socket. Pre-made cables are available cheaply on AliExpress and other sources.
 
@@ -78,6 +79,8 @@ A driver for the sensor for Arduino and SimpleFOC can be found here: [SimpleFOC 
 v1.0: 21 x 17 x 4mm (1.6mm PCB)
 
 <img src="../Encoder_SPI/pics/dimensions.png" width="400" />
+
+3D model: [STEP file](./Encoder_SPI_AS5047P.step)
 
 ## Cables
 

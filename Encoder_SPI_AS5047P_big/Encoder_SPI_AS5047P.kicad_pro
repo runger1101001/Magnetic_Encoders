@@ -421,7 +421,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Encoder_SPI_AS4047P.kicad_pro",
+    "filename": "Encoder_SPI_AS5047P.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -457,7 +457,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Encoder_SPI_AS5047P.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
