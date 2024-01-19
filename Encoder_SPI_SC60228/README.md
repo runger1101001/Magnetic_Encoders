@@ -22,13 +22,11 @@ That sounds more complicated than using it really is, so lets describe it anothe
 
 Datasheet of the sensor: http://www.semiment.com/download?filePath=product/fuCDPH4YG3usSN69gqmqQ3rSuHEqBBjj6cn1mMuu.pdf&fileName=SC60228_EN-VA1.0.pdf
 
-:warning: the sensor's SPI interface does not seem to be 100% compatible with standard SPI implementations. Depending on your MCU type and framework, your milage may vary.
-
 ## Getting one
 
 You may be able to buy some here:
 
-<a href="https://www.tindie.com/products/smallrobots/sc60228-encoder-board-for-robots-motor-control/?ref=offsite_badges&utm_source=sellers_runger1101001&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
+<a href="https://www.tindie.com/stores/smallrobots/"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
 
 Or you could make one - it is open source, you will find gerber files and BOM in the repo, and design files for KiCad 6.
 
@@ -53,7 +51,7 @@ Note: The sensor board does not pull the CS line up.
 ## Communications
 
 SPI interface:
-- SPI Mode 1 / SPI Mode 0 (depends on MCU type)
+- SPI Mode 1
 - MSB first
 - max 10MHz SPI clock
 

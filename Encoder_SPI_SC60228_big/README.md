@@ -26,7 +26,7 @@ Datasheet of the sensor: https://semiment.com/wp-content/uploads/2021/04/SC60228
 
 You may be able to buy some here:
 
-<a href="https://www.tindie.com/products/smallrobots/sc60228-encoder-board-for-robots-motor-control/?ref=offsite_badges&utm_source=sellers_runger1101001&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
+<a href="https://www.tindie.com/stores/smallrobots/"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
 
 Or you could make one - it is open source, you will find gerber files and BOM in the repo, and design files for KiCad 6.
 
