@@ -67,6 +67,12 @@
     "visible_layers": "7fcfaff_80000001",
     "zone_display_mode": 0
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
     "filename": "Encoder_MT6835.kicad_prl",
     "version": 3

@@ -1,0 +1,7 @@
+"Item","Ref Des","Qty","Manufacturer","Mfg Part #","Description / Value","Package","Type","Your Instructions / Notes"
+"1","C1","1","Generic","1uF 10V","1uF 10V","C_0603_1608Metric","?","eg. YAGEO CC0603KRX7R6BB105; Unpolarized capacitor; "
+"2","C2","1","Generic","100nF 10V","100nF 10V","C_0603_1608Metric","?","eg. YAGEO CC0603KRX7R6BB104; Unpolarized capacitor; "
+"3","D1","1","Generic","Green LED","green","LED_0805_2012Metric","?","e.g. XINGLIGHT XL-2012UGC; Light emitting diode; "
+"4","J1,J2","2","Scondar Electronic Limited","SCT-WR-S-06P","Conn_01x06_MountingPin","JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal","?","compatible to JST SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal; Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/); "
+"5","R1","1","Generic","Generic 2k2 Resistor","2k2","R_0603_1608Metric","?","; Resistor; "
+"6","U2","1","AMS","AS5047U-HTSM or ","AS5047D","TSSOP-14_4.4x5mm_P0.65mm","?","Depends on price also: AS5047P-ATSM; On-Axis Magnetic Position Sensor, 14-bit, PWM Output, ABI Output, UVW Output, SPI Interface, TSSOP-14; https://ams.com/documents/20143/36005/AS5047D_DS000394_2-00.pdf"

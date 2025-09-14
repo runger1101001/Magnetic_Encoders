@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/runger/Documents/making/_Encoders/Encoder_SPI_AS5047P_big/Encoder_SPI_AS5047P.kicad_sch</source>
+    <date>2024-10-22T21:03:27+0200</date>
+    <tool>Eeschema 8.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Encoder_SPI_AS5047P.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1uF 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part">1uF 10V</field>
+        <field name="Manu">Generic</field>
+        <field name="Notes">eg. YAGEO CC0603KRX7R6BB105</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Part" value="1uF 10V"/>
+      <property name="Manu" value="Generic"/>
+      <property name="Notes" value="eg. YAGEO CC0603KRX7R6BB105"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Encoder_SPI_AS5047P.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000606a375c</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part">100nF 10V</field>
+        <field name="Manu">Generic</field>
+        <field name="Notes">eg. YAGEO CC0603KRX7R6BB104</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Part" value="100nF 10V"/>
+      <property name="Manu" value="Generic"/>
+      <property name="Notes" value="eg. YAGEO CC0603KRX7R6BB104"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Encoder_SPI_AS5047P.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000606cd915</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manu">Generic</field>
+        <field name="Part">Green LED</field>
+        <field name="Notes">e.g. XINGLIGHT XL-2012UGC</field>
+        <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Manu" value="Generic"/>
+      <property name="Part" value="Green LED"/>
+      <property name="Notes" value="e.g. XINGLIGHT XL-2012UGC"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Encoder_SPI_AS5047P.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000606ee109</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x06_MountingPin</value>
+      <footprint>Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="Port">SPI</field>
+        <field name="Manu">Scondar Electronic Limited</field>
+        <field name="Part">SCT-WR-S-06P</field>
+        <field name="Notes">compatible to JST SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal</field>
+        <field name="Footprint">Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x06_MountingPin" description="Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Port" value="SPI"/>
+      <property name="Manu" value="Scondar Electronic Limited"/>
+      <property name="Part" value="SCT-WR-S-06P"/>
+      <property name="Notes" value="compatible to JST SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Encoder_SPI_AS5047P.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??-1MP*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000606aa1c6</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x06_MountingPin</value>
+      <footprint>Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="Port">ABI</field>
+        <field name="Manu">Scondar Electronic Limited</field>
+        <field name="Part">SCT-WR-S-06P</field>
+        <field name="Notes">compatible to JST SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal</field>
+        <field name="Footprint">Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x06_MountingPin" description="Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Port" value="ABI"/>
+      <property name="Manu" value="Scondar Electronic Limited"/>
+      <property name="Part" value="SCT-WR-S-06P"/>
+      <property name="Notes" value="compatible to JST SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Encoder_SPI_AS5047P.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??-1MP*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74071a60-06ea-4dc6-bd5b-8942055602e1</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part">Generic 2k2 Resistor</field>
+        <field name="Manu">Generic</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Part" value="Generic 2k2 Resistor"/>
+      <property name="Manu" value="Generic"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Encoder_SPI_AS5047P.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000606ece30</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AS5047D</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://ams.com/documents/20143/36005/AS5047D_DS000394_2-00.pdf</datasheet>
+      <fields>
+        <field name="Manu">AMS</field>
+        <field name="Notes">Depends on price also: AS5047P-ATSM</field>
+        <field name="Part">AS5047U-HTSM or </field>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://ams.com/documents/20143/36005/AS5047D_DS000394_2-00.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sensor_Magnetic" part="AS5047D" description="On-Axis Magnetic Position Sensor, 14-bit, PWM Output, ABI Output, UVW Output, SPI Interface, TSSOP-14"/>
+      <property name="Manu" value="AMS"/>
+      <property name="Notes" value="Depends on price also: AS5047P-ATSM"/>
+      <property name="Part" value="AS5047U-HTSM or "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Encoder_SPI_AS5047P.kicad_sch"/>
+      <property name="ki_keywords" value="Magnetic Hall Sensor"/>
+      <property name="ki_fp_filters" value="TSSOP*4.4x5mm*P0.65mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cd968ed-7b67-444f-a38f-ed0964f4c309</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic_MountingPin" part="Conn_01x06_MountingPin">
+      <description>Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_MountingPin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Solder Jumper, 2-pole, closed/bridged</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_kikit" part="Tab">
+      <description>KiKit tab annotations</description>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">Tab</field>
+        <field name="Footprint">kikit:Tab</field>
+        <field name="Datasheet"/>
+        <field name="Description">KiKit tab annotations</field>
+      </fields>
+    </libpart>
+    <libpart lib="Sensor_Magnetic" part="AS5047D">
+      <description>On-Axis Magnetic Position Sensor, 14-bit, PWM Output, ABI Output, UVW Output, SPI Interface, TSSOP-14</description>
+      <docs>https://ams.com/documents/20143/36005/AS5047D_DS000394_2-00.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AS5047D</field>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://ams.com/documents/20143/36005/AS5047D_DS000394_2-00.pdf</field>
+        <field name="Description">On-Axis Magnetic Position Sensor, 14-bit, PWM Output, ABI Output, UVW Output, SPI Interface, TSSOP-14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="input"/>
+        <pin num="2" name="CLK" type="input"/>
+        <pin num="3" name="MISO" type="output"/>
+        <pin num="4" name="MOSI" type="input"/>
+        <pin num="5" name="TST" type="input"/>
+        <pin num="6" name="B" type="output"/>
+        <pin num="7" name="A" type="output"/>
+        <pin num="8" name="W/PWM" type="output"/>
+        <pin num="9" name="V" type="output"/>
+        <pin num="10" name="U" type="output"/>
+        <pin num="11" name="VDD" type="power_in"/>
+        <pin num="12" name="VDD3V3" type="power_out"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="I/PWM" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="runger" part="Robo_Logo">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">Robo_Logo</field>
+        <field name="Footprint">runger:Robo_logo2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic_MountingPin">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic_MountingPin.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Magnetic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Sensor_Magnetic.kicad_sym</uri>
+    </library>
+    <library logical="runger">
+      <uri>/Users/runger/Documents/making/kicad/kicad-lib-runger/runger.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3v3">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="VDD3V3" pintype="power_out"/>
+    </net>
+    <net code="2" name="/A">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="A" pintype="output"/>
+    </net>
+    <net code="3" name="/B">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="B" pintype="output"/>
+    </net>
+    <net code="4" name="/I">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="I/PWM" pintype="output"/>
+    </net>
+    <net code="5" name="/MISO">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="MISO" pintype="output"/>
+    </net>
+    <net code="6" name="/MOSI">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="MOSI" pintype="input"/>
+    </net>
+    <net code="7" name="/SCK">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="8" name="/nCS">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="MP" pinfunction="MountPin" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="MP" pinfunction="MountPin" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="TST" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="VCC">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="12" name="unconnected-(J2-Pin_6-Pad6)">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(U2-U-Pad10)">
+      <node ref="U2" pin="10" pinfunction="U" pintype="output+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(U2-V-Pad9)">
+      <node ref="U2" pin="9" pinfunction="V" pintype="output+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(U2-W{slash}PWM-Pad8)">
+      <node ref="U2" pin="8" pinfunction="W/PWM" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

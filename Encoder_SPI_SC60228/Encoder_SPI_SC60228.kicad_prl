@@ -67,6 +67,12 @@
     "visible_layers": "000d530_80000001",
     "zone_display_mode": 1
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
     "filename": "Encoder_SPI_SC60228.kicad_prl",
     "version": 3
