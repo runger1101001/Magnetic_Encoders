@@ -61,10 +61,6 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|125652501|72845001|00000000-0000-0000-0000-0000606c1275|2d85c86a-faea-41a0-9c87-7bebd8430eb2",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|129480000|70725000|6500a9af-de45-4a95-a856-5049be5bcd22|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -495,7 +491,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Encoder_SPIABZ_KTH7812.kicad_pro",
+    "filename": "Encoder_SPIABZ_MT6826S.kicad_pro",
     "version": 3
   },
   "net_settings": {

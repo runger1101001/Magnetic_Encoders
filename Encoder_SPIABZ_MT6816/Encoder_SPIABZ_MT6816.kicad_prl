@@ -1,11 +1,11 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 5,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -15,12 +15,13 @@
       "vias": 1.0,
       "zones": 0.6
     },
+    "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -45,21 +46,18 @@
       "pads",
       "zones",
       "drc_warnings",
-      "locked_item_shadows",
-      "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0ffcffff_ffffffff",
+    "visible_layers": "00000000_00000000_0000d530_8200a0af",
     "zone_display_mode": 0
   },
   "git": {
-    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Encoder_SPIABZ_KTH7812.kicad_prl",
+    "filename": "Encoder_SPIABZ_MT6816.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

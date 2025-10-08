@@ -1,0 +1,30 @@
+{
+    "layout": {
+        "hspace": "3mm",
+        "vspace": "3mm",
+        "rows": "5",
+        "cols": "4"
+    },
+    "tabs": {
+        "type": "annotation"
+    },
+    "cuts": {
+        "type": "mousebites"
+    },
+    "framing": {
+        "type": "frame"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "5mm",
+        "voffset": "2.5mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "10mm",
+        "voffset": "2.5mm"
+    },
+    "copperfill": {
+        "type": "solid"
+    }
+}
